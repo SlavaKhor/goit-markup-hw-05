@@ -733,3 +733,11 @@ ul {
   margin-bottom: 24px;
 }
 
+.form-input-comment-wraper{
+  margin-bottom: 16px;
+}
+
+.form-input-comment-wraper:focus{
+  border-color: #4D5AE5;
+}
+
