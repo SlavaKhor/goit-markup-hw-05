@@ -770,11 +770,10 @@ ul {
 .checkbox-input:checked + .checkbox-span {
   background-color: #404bbf;
   border: none;
-}
-
-.checkbox-input:checked + .checkbox-span .checkbox-icon {
   fill: #f4f4fd;
 }
+
+
 
 .privacy-policy-link{
   color: #4d5ae5;
