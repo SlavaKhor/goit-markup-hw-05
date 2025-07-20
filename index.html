@@ -381,18 +381,16 @@
       </ul>
     </div>
     <div>
-    <form action="subscribe-form">
-      <label for="Subscribe">
-        <input type="email" name="email" placeholder="E-mail">
-      </label>
+    <form class="subscribe-form" action="#">
+  <label for="footer-email" class="visually-hidden">Email</label>
+  <input id="footer-email" type="email" name="email" placeholder="E-mail" required>
 
-      <label for="Subscribe-btn">
-        <button>Subscribe</button>
-      </label>
-    </form>
+  <button type="submit">Subscribe</button>
+</form>
     </div>
   </div>
 </footer>
+
   <div class="modal-overlay">
     <div class="modal">
       <button type="button" class="modal-close">
