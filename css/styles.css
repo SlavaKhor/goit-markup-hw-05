@@ -695,6 +695,9 @@ ul {
   fill: #4D5AE5
 }
 
+.input-field:focus{
+  border-color: #4D5AE5;
+}
 .input-field{
   
   width: 100%;
@@ -726,7 +729,7 @@ ul {
 }
 
 
-.form-imput-wraper{
+.form-input-wraper{
   margin-bottom: 24px;
 }
 
