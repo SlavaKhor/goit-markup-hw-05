@@ -676,7 +676,7 @@ ul {
 
 }
 
-.form-imput-wraper{
+.form-input-wraper{
   margin-bottom: 8px;
 }
 .inp-and-icon{
@@ -706,6 +706,7 @@ ul {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4D5AE5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .input-text-area{
