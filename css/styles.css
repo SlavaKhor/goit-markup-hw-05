@@ -792,7 +792,7 @@ ul {
 
 .footer-form-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
  
 }
 
@@ -851,15 +851,4 @@ ul {
 .subscribe-button-icon {
   margin-left: 16px;
   fill: currentColor;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
 }
