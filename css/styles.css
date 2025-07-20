@@ -740,7 +740,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  }
+}
 
 .checkbox-span {
   align-items: center;
@@ -766,6 +766,7 @@ ul {
 .privacy-policy-link {
   color: #4d5ae5;
 }
+
 
 .submit-form-button {
   min-width: 169px;
