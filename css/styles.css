@@ -737,7 +737,18 @@ ul {
   margin-bottom: 16px;
 }
 
-.form-input-comment-wraper:focus{
+.input-text-area:focus{
   border-color: #4D5AE5;
 }
 
+.checkbox-wraper{
+   margin-bottom: 24px;
+
+}
+
+.checkbox-label{
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.04em;
+   color: #8e8f99;
+}
