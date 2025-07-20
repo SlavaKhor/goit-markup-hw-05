@@ -381,19 +381,23 @@
       </ul>
     </div>
     <!-- footer form -->
-    <div class="footer-form-wraper">
+    <div class="footer-form-wrapper">
       <p class="footer-form-par">Subscribe</p>
       <form class="subscribe-form" action="#">
-          <label class="email-label visually-hidden" for="footer-email">Email
-            <input class="subscribe-form-input" id="footer-email" type="email" name="email" placeholder="E-mail" required>
-          </label>
-          
-          <button class="submit-btn-footer" type="submit">
-            <svg class="subscribe-button-icon" width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-email-black-18dp"></use>
-            </svg>
-            Subscribe</button>
+        <label class="visually-hidden" for="footer-email">Email
+          <input class="subscribe-form-input" id="footer-email" type="email" name="email" placeholder="E-mail" required
+        />
+        </label>
+        
+        <button class="submit-btn-footer" type="submit">
+          Subscribe
+          <svg class="subscribe-button-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-email-black-18dp"></use>
+          </svg>
+        </button>
       </form>
+</div>
+
     </div>
   </div>
 </footer>
@@ -453,6 +457,7 @@
         type="checkbox"
         id="user-privacy"
         name="user-privacy"
+        value="true"
         required
       />
       <label class="checkbox-label" for="user-privacy">
